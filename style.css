@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: hsl(216, 12%, 8%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	background-color: hsl(213, 19%, 18%);
+	display: grid;
+	gap: 20px;
+	align-items: center;
+	max-width: 350px;
+	border-radius: 25px;
+	padding: 30px;
+}
+
+.container2{
+	background-color: hsl(213, 19%, 18%);
+	display: grid;
+	gap: 20px;
+	align-items: center;
+	text-align: center;
+	max-width: 350px;
+	border-radius: 25px;
+	padding: 30px;
+}
+.container2{
+	display: none;
+}
+.chose{
+	justify-self: center;
+	background-color: hsl(216, 12%, 8%);
+	color: hsl(25, 97%, 53%);
+	border-radius: 25px;
+	width: 50%;
+	padding: 10px;
+
+}
+.star-icon img{
+	max-width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+.fa-star{
+	color: hsl(25 ,97%, 53%);
+	font-size: 50px;
+}
+.txt-header{
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+.txt{
+	color: hsl(217, 12%, 63%);
+	font-size: 15px;
+	font-weight: 700;
+	text-align: left;
+}
+.rating{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+.rate{
+	background-color: hsl(213, 12%, 44%);
+	border-radius: 50%;
+	border: none;
+	padding: 10px;
+	width: 55px;
+	height: 50px;
+	font-weight: 700;
+	font-size: 15px;
+	color: hsl(217, 12%, 63%);
+}
+.rating button:hover{
+	background-color: hsl(216, 12%, 64%);
+	color: black;
+}
+
+.submission{
+	background-color: hsl(25, 97%, 53%);
+	border-radius: 25px;
+	border: none;
+	width: 100%;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+}
+.click{
+	background-color: hsl(25, 97%, 53%);
+}
+.submission:hover{
+	background-color: hsl(0, 0%, 100%);
+	color: black;
+}
+@media screen (max-width: 480px){
+	.container{
+		max-width:17rem;
+		
+	}
+}
